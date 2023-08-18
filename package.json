@@ -1,26 +1,27 @@
 {
-  "name": "@uniswap/v3-core",
-  "description": "🦄 Core smart contracts of Uniswap V3",
+  "name": "@elkdex/v3-core",
+  "description": "🦌 Core smart contracts of ElkDex V3",
   "license": "BUSL-1.1",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
-  "version": "1.0.1",
-  "homepage": "https://uniswap.org",
+  "version": "1.0.6",
+  "homepage": "https://elk.finance",
   "keywords": [
-    "uniswap",
+    "elkdex",
     "core",
     "v3"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-v3-core"
+    "url": "https://github.com/elkfinance/elkdex-v3-core"
   },
   "files": [
     "contracts/interfaces",
     "contracts/libraries",
-    "artifacts/contracts/UniswapV3Factory.sol/UniswapV3Factory.json",
-    "artifacts/contracts/UniswapV3Pool.sol/UniswapV3Pool.json",
+    "artifacts/contracts/ElkDexV3Factory.sol/ElkDexV3Factory.json",
+    "artifacts/contracts/ElkDexV3Pool.sol/ElkDexV3Pool.json",
     "artifacts/contracts/interfaces/**/*.json",
     "!artifacts/contracts/interfaces/**/*.dbg.json"
   ],
